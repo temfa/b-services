@@ -1,0 +1,39 @@
+.container {
+    padding: 176px 0px;
+    width: 83%;
+    max-width: 1200px;
+    margin: 0px auto;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.single {
+    padding: 24px 79px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    border: 1px dashed black;
+    border-radius: 4px;
+}
+
+.single div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.single div h2 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 56px;
+    color: black;
+}
+
+.single div p {
+    font-size: 16px;
+    line-height: 150%;
+    color: black;
+    font-weight: 400;
+}

@@ -1,0 +1,31 @@
+.wrapper {
+    width: 100%;
+    background-color: #F9FAFB;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 88%;
+    max-width: 1260px;
+    margin: 0px auto;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.nav {
+    display: flex;
+    gap: 40px;
+}
+
+.nav a {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: black;
+}
+
+.social {
+    display: flex;
+    gap: 40px;
+}

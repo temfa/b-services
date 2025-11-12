@@ -1,0 +1,33 @@
+import React from "react";
+import styles from "./styles.module.css";
+import { PictureSvg } from "@/svgs/picture";
+
+export const About = () => {
+  return (
+    <div className={styles.container}>
+      <div className={styles.body} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+        <div className={styles.head}>
+          <h2>B Supplies Ventures</h2>
+          <p>Our Journey Towards Excellence in Logistics and Supply Chain Solutions</p>
+        </div>
+        <div className={styles.content}>
+          <div>
+            <p>
+              B SUPPLIES VENTURES is a corporate export logistics company specializing in fast and reliable international deliveries. We make global shipping seamless offering
+              48–72 hour express, door to door delivery with full tracking access for total shipment visibility and peace of mind.
+            </p>
+            <p>
+              Through our strategic logistics partnerships with DHL Express, UPS and FedEx, we provide secure, efficient and professional export solutions for entrepreneurs,
+              fashion brands, African diaspora, foodstuff suppliers, cosmetic vendors and many more industries that rely on timely movement of good. At B SUPPLIES VENTURES, our
+              priority is speed, accuracy and world class service every single time.
+            </p>
+          </div>
+          <button>Contact Us</button>
+        </div>
+      </div>
+      <div className={styles.picture} data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+        <PictureSvg />
+      </div>
+    </div>
+  );
+};
