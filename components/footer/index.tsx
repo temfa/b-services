@@ -4,6 +4,7 @@ import Image from "next/image";
 import { PinSvg } from "@/svgs/pin";
 import { EnveloeSvg } from "@/svgs/envelope";
 import { PhoneSvg } from "@/svgs/phone";
+import Link from "next/link";
 
 export const Footer = () => {
   return (
@@ -18,15 +19,15 @@ export const Footer = () => {
           <div className={styles.body}>
             <div>
               <PinSvg />
-              <p>Canary Wharf, United Kingdom.</p>
+              <p>Number 44, Powerline Mowokere along ijede road, Ikorodu opposite Dele-iwa block industry.</p>
             </div>
             <div>
               <EnveloeSvg />
-              <p>info@example.com</p>
+              <Link href="mailto:Bsuppliesventures@gmail.com">Bsuppliesventures@gmail.com</Link>
             </div>
             <div>
               <PhoneSvg />
-              <p>+234 803 456 4990</p>
+              <Link href="tel:08067015649">08067015649</Link>
             </div>
           </div>
         </div>
@@ -40,8 +41,12 @@ export const Footer = () => {
         <div className={styles.contact}>
           <h2>SOCIALS</h2>
           <div className={styles.body}>
-            <p>Instagram</p>
-            <p>Tiktok</p>
+            <Link href="https://www.instagram.com/logisticsby_bsupplies/" target="_blank">
+              Instagram
+            </Link>
+            <Link href="https://www.tiktok.com/@logisticsby_bsupplies" target="_blank">
+              Tiktok
+            </Link>
           </div>
         </div>
       </div>

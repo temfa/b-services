@@ -16,3 +16,10 @@
     color: white;
     letter-spacing: 0.5px;
 }
+
+@media screen and (max-width: 500px) {
+    .container p {
+        width: 90%;
+        font-size: 12px;
+    }
+}

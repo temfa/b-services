@@ -23,3 +23,25 @@
     line-height: 28px;
     color: white;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 40px 0px;
+        gap: 32px;
+    }
+
+    .container h2 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .container p {
+        width: 95%;
+        font-size: 12px;
+    }
+
+    .container img {
+        object-fit: contain;
+        width: 100%;
+    }
+}

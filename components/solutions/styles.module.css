@@ -84,3 +84,35 @@
 .right div p {
     text-align: right;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        padding: 40px 0px;
+        width: 90%;
+        max-width: 100%;
+        gap: 40px;
+    }
+
+    .body {
+        gap: 60px
+    }
+
+    .left {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: column-reverse;
+    }
+
+    .left img,
+    .right img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .right div p,
+    .right div h2 {
+        text-align: left;
+    }
+}

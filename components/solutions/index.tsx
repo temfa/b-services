@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export const Solutions = () => {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="services">
       <div className={styles.container}>
         <div className={styles.header}>
           <h2>Our Services</h2>
@@ -70,6 +70,23 @@ export const Solutions = () => {
                 outrageous shipping fees as we offer fast, affordable and stress shipping and free package forwarding services.
               </p>
             </div>
+          </div>
+          <div className={styles.right}>
+            <div data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+              <h2>Car Accessories</h2>
+              <p>We also offer car accessories ranging from tyres to rims to car batteries end etc.</p>
+            </div>
+            <Image
+              data-aos="fade-left"
+              data-aos-duration="1500"
+              data-aos-easing="ease-in"
+              data-aos-mirror="true"
+              data-aos-once="false"
+              src="/images/car.png"
+              width={535}
+              height={450}
+              alt="Air"
+            />
           </div>
         </div>
       </div>

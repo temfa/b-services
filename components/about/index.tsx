@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "./styles.module.css";
-import { PictureSvg } from "@/svgs/picture";
+import Image from "next/image";
 
 export const About = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="about">
       <div className={styles.body} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
         <div className={styles.head}>
           <h2>B Supplies Ventures</h2>
@@ -17,17 +17,24 @@ export const About = () => {
               48–72 hour express, door to door delivery with full tracking access for total shipment visibility and peace of mind.
             </p>
             <p>
-              Through our strategic logistics partnerships with DHL Express, UPS and FedEx, we provide secure, efficient and professional export solutions for entrepreneurs,
-              fashion brands, African diaspora, foodstuff suppliers, cosmetic vendors and many more industries that rely on timely movement of good. At B SUPPLIES VENTURES, our
-              priority is speed, accuracy and world class service every single time.
+              We provide secure, efficient and professional export solutions for entrepreneurs, fashion brands, African diaspora, foodstuff suppliers, cosmetic vendors and many
+              more industries that rely on timely movement of good. At B SUPPLIES VENTURES, our priority is speed, accuracy and world class service every single time.
             </p>
           </div>
           <button>Contact Us</button>
         </div>
       </div>
-      <div className={styles.picture} data-aos="fade-left" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
-        <PictureSvg />
-      </div>
+      <Image
+        src="/images/truck.png"
+        width={690}
+        height={460}
+        alt="truck"
+        data-aos="fade-left"
+        data-aos-duration="1500"
+        data-aos-easing="ease-in"
+        data-aos-mirror="true"
+        data-aos-once="false"
+      />
     </div>
   );
 };

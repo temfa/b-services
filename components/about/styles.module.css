@@ -71,3 +71,22 @@
 .picture {
     flex: 1;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 90%;
+        max-width: 100%;
+        flex-direction: column;
+        gap: 0px;
+        padding-bottom: 0px;
+    }
+
+    .body {
+        width: 100%;
+    }
+
+    .container img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
