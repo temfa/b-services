@@ -12,7 +12,7 @@ export const Footer = () => {
       <div className={styles.wrapper}>
         <div className={styles.logo}>
           <Image src="/images/logo.png" width={70} height={70} alt="Logo" />
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et d tempor incididunt ut labore et </p>
+          <p> B SUPPLIES VENTURES is a corporate export logistics company specializing in fast and reliable international deliveries. </p>
         </div>
         <div className={styles.contact}>
           <h2>CONTACT</h2>
@@ -35,7 +35,7 @@ export const Footer = () => {
           <h2>WORKING HOURS</h2>
           <div className={styles.body}>
             <p>Monday - Friday: 7:30am - 18:00pm </p>
-            <p>Saturday - Sunday: 7:30am - 1:00pm</p>
+            <p>Saturday: 7:30am - 1:00pm</p>
           </div>
         </div>
         <div className={styles.contact}>

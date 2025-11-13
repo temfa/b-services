@@ -27,7 +27,7 @@ export const Header = () => {
           <Link onClick={() => setMobile(false)} href="/#services">
             Service
           </Link>
-          {/* <Link href="/#contact">Contact</Link> */}
+          <Link href="/#contact">Contact</Link>
         </div>
         <div className={styles.social}>
           <Link href="https://www.instagram.com/logisticsby_bsupplies/" target="_blank">

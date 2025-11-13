@@ -25,9 +25,9 @@ export const About = () => {
         </div>
       </div>
       <Image
-        src="/images/truck.png"
+        src="/images/b.jpeg"
         width={690}
-        height={460}
+        height={690}
         alt="truck"
         data-aos="fade-left"
         data-aos-duration="1500"

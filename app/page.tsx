@@ -1,8 +1,8 @@
 import { About } from "@/components/about";
 import { Ads } from "@/components/ads";
 import { Banner } from "@/components/banner";
+import { ContactBody } from "@/components/contact";
 import { Footer } from "@/components/footer";
-// import { Contact } from "@/components/contact";
 import { Global } from "@/components/global";
 import { Header } from "@/components/header";
 import { Solutions } from "@/components/solutions";
@@ -18,7 +18,7 @@ export default function Home() {
       <Solutions />
       <Stats />
       <Global />
-      {/* <Contact /> */}
+      <ContactBody />
       <Footer />
     </>
   );

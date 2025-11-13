@@ -2,7 +2,7 @@
     width: 100%;
     height: 750px;
     background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url('../../public/images/banner.avif') center/cover no-repeat;
+        url('../../public/images/banner.jpg') center/cover no-repeat;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -42,12 +42,13 @@
     color: #ffffff;
 }
 
-.container button {
+.container a {
     width: 266px;
     padding: 18px 0px;
     border-radius: 10px;
+    text-align: center;
     border: 0px;
-    background-color: #239B78;
+    background-color: #1A2B49;
     color: white;
     position: relative;
     z-index: 2;
@@ -73,7 +74,7 @@
         line-height: 48px;
     }
 
-    .container button {
+    .container a {
         width: 100%;
     }
 }

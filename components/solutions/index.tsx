@@ -74,7 +74,10 @@ export const Solutions = () => {
           <div className={styles.right}>
             <div data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
               <h2>Car Accessories</h2>
-              <p>We also offer car accessories ranging from tyres to rims to car batteries end etc.</p>
+              <p>
+                We also sell Quality Car Accessories Everything you need to upgrade and protect your car. Affordable, Durable, Stylish ranging from Car batteries, Tyres Alloy rims
+                Lubricants, etc.
+              </p>
             </div>
             <Image
               data-aos="fade-left"

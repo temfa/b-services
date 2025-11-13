@@ -21,8 +21,7 @@ button,
 body,
 ul,
 li,
-select,
-input {
+select {
   font-family: var(--font-inter);
 }
 
