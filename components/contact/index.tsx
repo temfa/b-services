@@ -37,8 +37,9 @@ export const ContactBody = () => {
         },
         body: JSON.stringify(data),
       };
+      console.log(options);
 
-      await fetch(`/api/send-mail`, options);
+      // await fetch(`/api/send-mail`, options);
       toast.success("Message sent Successfully!!!");
       reset();
     } catch (error) {
