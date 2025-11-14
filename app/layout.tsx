@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Montserrat } from "next/font/google";
+import { Montserrat, Raleway } from "next/font/google";
 import "./globals.css";
 import { Providers } from "@/provider";
 
-const inter = Cormorant_Garamond({
+const inter = Raleway({
   variable: "--font-inter",
   subsets: ["latin"],
   weight: ["300", "400", "500", "600", "700"],
