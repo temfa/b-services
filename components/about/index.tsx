@@ -1,13 +1,14 @@
 import React from "react";
 import styles from "./styles.module.css";
 import Image from "next/image";
+import Link from "next/link";
 
 export const About = () => {
   return (
     <div className={styles.container} id="about">
       <div className={styles.body} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
         <div className={styles.head}>
-          <h2>B Supplies Ventures</h2>
+          <h2>B SUPPLIES VENTURES</h2>
           <p>Our Journey Towards Excellence in Logistics and Supply Chain Solutions</p>
         </div>
         <div className={styles.content}>
@@ -21,7 +22,7 @@ export const About = () => {
               more industries that rely on timely movement of good. At B SUPPLIES VENTURES, our priority is speed, accuracy and world class service every single time.
             </p>
           </div>
-          <button>Contact Us</button>
+          <Link href="/#contact">Contact Us</Link>
         </div>
       </div>
       <Image

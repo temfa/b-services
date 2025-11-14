@@ -34,8 +34,7 @@ export const Footer = () => {
         <div className={styles.contact}>
           <h2>WORKING HOURS</h2>
           <div className={styles.body}>
-            <p>Monday - Friday: 7:30am - 18:00pm </p>
-            <p>Saturday: 7:30am - 1:00pm</p>
+            <p>Monday - Saturday: 8:00am - 7:00pm </p>
           </div>
         </div>
         <div className={styles.contact}>
@@ -50,7 +49,7 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <p>Copyright © 2025 B Shipping Ventures</p>
+      <p>Copyright © 2025 B SHIPPING VENTURES</p>
     </div>
   );
 };
