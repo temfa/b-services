@@ -6,7 +6,7 @@ import Link from "next/link";
 export const About = () => {
   return (
     <div className={styles.container} id="about">
-      <div className={styles.body} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="false">
+      <div className={styles.body} data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in" data-aos-mirror="true" data-aos-once="true">
         <div className={styles.head}>
           <h2>B SUPPLIES VENTURES</h2>
           <p>Our Journey Towards Excellence in Logistics and Supply Chain Solutions</p>
@@ -19,8 +19,9 @@ export const About = () => {
             </p>
             <p>
               We provide secure, efficient and professional export solutions for entrepreneurs, fashion brands, African diaspora, foodstuff suppliers, cosmetic vendors and many
-              more industries that rely on timely movement of good. At B SUPPLIES VENTURES, our priority is speed, accuracy and world class service every single time.
+              more industries that rely on timely movement of good.
             </p>
+            <p>At B SUPPLIES VENTURES, our priority is speed, accuracy and world class service every single time.</p>
           </div>
           <Link href="/#contact">Contact Us</Link>
         </div>
@@ -34,7 +35,7 @@ export const About = () => {
         data-aos-duration="1500"
         data-aos-easing="ease-in"
         data-aos-mirror="true"
-        data-aos-once="false"
+        data-aos-once="true"
       />
     </div>
   );

@@ -5,6 +5,7 @@ import { toast } from "react-toastify";
 import Link from "next/link";
 import { InstagramSvg } from "@/svgs/instagram";
 import { TiktokSvg } from "@/svgs/tiktok";
+import { WhatsappSvg } from "@/svgs/whatsapp";
 
 type FormData = {
   fullName: string;
@@ -59,11 +60,11 @@ export const ContactBody = () => {
           <div className={styles.bottom}>
             <div className={styles.single}>
               <h3>Email address</h3>
-              <p>bsuppliesventures@gmail.com</p>
+              <h2>bsuppliesventures@gmail.com</h2>
             </div>
             <div className={styles.single}>
               <h3>Phone numbers</h3>
-              <p>+234 8067015649</p>
+              <h2>+234 8067015649</h2>
             </div>
             <div className={styles.single}>
               <h3>Social Media handles</h3>
@@ -73,6 +74,9 @@ export const ContactBody = () => {
                 </Link>
                 <Link href="https://www.tiktok.com/@logisticsby_bsupplies" target="_blank">
                   <TiktokSvg />
+                </Link>
+                <Link href="https://wa.me/2348067015649" target="_blank">
+                  <WhatsappSvg />
                 </Link>
               </div>
             </div>

@@ -7,6 +7,7 @@ import { TiktokSvg } from "@/svgs/tiktok";
 import { useState } from "react";
 import Close from "@/svgs/close";
 import Bars from "@/svgs/bars";
+import { WhatsappSvg } from "@/svgs/whatsapp";
 
 export const Header = () => {
   const [mobile, setMobile] = useState(false);
@@ -35,6 +36,9 @@ export const Header = () => {
           </Link>
           <Link href="https://www.tiktok.com/@logisticsby_bsupplies" target="_blank">
             <TiktokSvg />
+          </Link>
+          <Link href="https://wa.me/2348067015649" target="_blank">
+            <WhatsappSvg />
           </Link>
         </div>
       </div>

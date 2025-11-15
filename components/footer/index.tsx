@@ -46,6 +46,9 @@ export const Footer = () => {
             <Link href="https://www.tiktok.com/@logisticsby_bsupplies" target="_blank">
               Tiktok
             </Link>
+            <Link href="https://wa.me/2348067015649" target="_blank">
+              Whatsapp
+            </Link>
           </div>
         </div>
       </div>
