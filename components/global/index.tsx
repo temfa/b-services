@@ -5,7 +5,7 @@ import Image from "next/image";
 export const Global = () => {
   return (
     <div className={styles.container}>
-      <h2>Our Increasing Global Prescence</h2>
+      <h2>Our Increasing Global Presence</h2>
       <p>
         After experiencing the myriads of challenges sourcing from Asia we realised that we were not alone. Our team set out to build this platform to make it easy for everyone
         with a product dream to launch. We have experienced manufacturing, procurement, design, accounting, shipping and business management experts hailing from all across the

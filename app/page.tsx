@@ -7,6 +7,7 @@ import { Global } from "@/components/global";
 import { Header } from "@/components/header";
 import { Solutions } from "@/components/solutions";
 import { Stats } from "@/components/stats";
+import { Testimonials } from "@/components/testimonials";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Stats />
       <Global />
       <ContactBody />
+      <Testimonials />
       <Footer />
     </>
   );

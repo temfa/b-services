@@ -15,7 +15,11 @@
 }
 
 .wrapper>div {
-    width: 24%;
+    width: 28%;
+}
+
+.wrapper>div:last-child {
+    width: 12%;
 }
 
 .logo {

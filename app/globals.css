@@ -16,7 +16,6 @@ h3,
 h4,
 h5,
 h6,
-span,
 button,
 body,
 ul,
@@ -25,6 +24,7 @@ select {
   font-family: var(--font-inter);
 }
 
+span,
 h2 {
   font-family: var(--font-outfit);
 }
