@@ -6,6 +6,7 @@ import Link from "next/link";
 import { InstagramSvg } from "@/svgs/instagram";
 import { TiktokSvg } from "@/svgs/tiktok";
 import { WhatsappSvg } from "@/svgs/whatsapp";
+import { useState } from "react";
 
 type FormData = {
   fullName: string;
@@ -15,6 +16,7 @@ type FormData = {
 };
 
 export const ContactBody = () => {
+  const [loading, setLoading] = useState(false);
   const {
     register,
     handleSubmit,
@@ -23,6 +25,7 @@ export const ContactBody = () => {
   } = useForm<FormData>();
 
   const submit: SubmitHandler<FormData> = async (e) => {
+    setLoading(true);
     try {
       const data = {
         name: e.fullName,
@@ -40,10 +43,12 @@ export const ContactBody = () => {
       };
       console.log(options);
 
-      // await fetch(`/api/send-mail`, options);
+      await fetch(`/api/send-mail`, options);
       toast.success("Message sent Successfully!!!");
       reset();
+      setLoading(false);
     } catch (error) {
+      setLoading(false);
       console.error("Payment failed:", error);
       toast.error("Something went wrong. Please try again.");
     }
@@ -131,7 +136,7 @@ export const ContactBody = () => {
               )}
             </div>
           </div>
-          <button type="submit">Submit</button>
+          <button type="submit">{loading ? "Loading..." : "Submit"}</button>
         </form>
       </div>
     </div>
