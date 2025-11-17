@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://bsuppliesventure.com
+
+# Sitemaps
+Sitemap: https://bsuppliesventure.com/sitemap.xml

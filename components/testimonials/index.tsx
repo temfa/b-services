@@ -61,12 +61,68 @@ export const Testimonials = () => {
                 })}
               </div>
               <p>
-                Our experience with B SUPPLIES VENTURES has been fantastic. Their international deliveries are impressively fast, my Sister in-law got her packages in Canada within
-                4 days.
+                Our experience with B SUPPLIES VENTURES has been fantastic. Their international deliveries are impressively fast, my Sister in-law got her packages in USA within 4
+                days.
               </p>
             </div>
             <div className={styles.line} />
             <p>Dauda Olamide</p>
+          </div>
+        </div>
+      </div>
+      <div className={styles.wrapper}>
+        <div className={styles.single}>
+          <div className={styles.head}>
+            <div />
+            <h2>04</h2>
+          </div>
+          <div className={styles.body}>
+            <div className={styles.top}>
+              <div>
+                {[0, 1, 2, 3, 4]?.map((_, index) => {
+                  return <StarSvg key={index} />;
+                })}
+              </div>
+              <p>The service was top-notch and accurate. So satisfactory Zero issues. They should keep it up.</p>
+            </div>
+            <div className={styles.line} />
+            <p>Solomon Adeniyi</p>
+          </div>
+        </div>
+        <div className={styles.single}>
+          <div className={styles.head}>
+            <div />
+            <h2>05</h2>
+          </div>
+          <div className={styles.body}>
+            <div className={styles.top}>
+              <div>
+                {[0, 1, 2, 3, 4]?.map((_, index) => {
+                  return <StarSvg key={index} />;
+                })}
+              </div>
+              <p>Very seamless delivery process …the best I’ve had so far…I enjoyed working with them….Thank you for a job well done</p>
+            </div>
+            <div className={styles.line} />
+            <p>Haruna Bukola</p>
+          </div>
+        </div>
+        <div className={styles.single}>
+          <div className={styles.head}>
+            <div />
+            <h2>06</h2>
+          </div>
+          <div className={styles.body}>
+            <div className={styles.top}>
+              <div>
+                {[0, 1, 2, 3, 4]?.map((_, index) => {
+                  return <StarSvg key={index} />;
+                })}
+              </div>
+              <p>Great customer service, it was nice using their service to ship to the UK</p>
+            </div>
+            <div className={styles.line} />
+            <p>Kingsley Oladunmoye</p>
           </div>
         </div>
       </div>
